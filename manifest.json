@@ -1,0 +1,17 @@
+{
+  "name": "Unlock Medium",
+  "version": "1.0",
+  "description": "Unlock Medium Extension!",
+  "manifest_version": 2,
+  "browser_action": {},
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "permissions": ["activeTab", "clipboardWrite"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
